@@ -14,7 +14,6 @@ interface = devices.Activate(
 volume = cast(interface, POINTER(IAudioEndpointVolume))
 
 #volume.GetMasterVolumeLevel()
-#
 
 cap = cv2.VideoCapture(0)
 mpHands = mp.solutions.hands
